@@ -1,0 +1,47 @@
+# ==========================================
+# Dependencies & Packages
+# ==========================================
+/vendor/
+/composer.lock
+
+# ==========================================
+# Magento Generated Files & Directories
+# ==========================================
+/app/etc/config.php
+/generated/*
+/pub/media/*
+!/pub/media/.htaccess
+/pub/static/*
+!/pub/static/.htaccess
+/var/*
+!/var/.htaccess
+
+# ==========================================
+# Environment-Specific Configuration & Keys
+# ==========================================
+/app/etc/env.php
+/var/composer_home/
+auth.json
+
+# ==========================================
+# Logs, Backups, and Temporary Files
+# ==========================================
+/var/log/*
+/var/report/*
+/var/cache/*
+/var/session/*
+/var/tmp/*
+*.swp
+*.bak
+*.tmp
+*~
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
